@@ -5,8 +5,8 @@ html, body {
 
 .mdl-layout .tmpcomp1-titleicon {
 	font-size: 4em;
-    align-self: center;
-    padding: 1em;
+	align-self: center;
+	padding: 1em;
 }
 
 .mdl-layout-title {
@@ -55,14 +55,13 @@ html, body {
 
 .mdl-card.tmpcomp1-product-header {
 	min-width: 100%;
-	background: transparent;
 }
 
 .tmpcomp1-product-header .product-image {
 	min-width: 100%;
 	min-height: 176px;
 	background-size: cover;
-    background-position: center;
+	background-position: center;
 }
 
 .tmpcomp1-product-header .mdl-card__title-text {
@@ -73,7 +72,8 @@ html, body {
 .mdl-card__supporting-text.product-info {
 	line-height: 1.6em;
 	text-align: justify;
-	font-size: 1.2em;
+	font-size: 1.1em;
+	width: 96.7%;
 }
 
 .card-product.mdl-card {
