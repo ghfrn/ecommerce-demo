@@ -70,10 +70,24 @@ html, body {
 }
 
 .mdl-card__supporting-text.product-info {
+	width: 96.7%;
+}
+
+.mdl-card__supporting-text.product-info .product-description {
 	line-height: 1.6em;
 	text-align: justify;
 	font-size: 1.1em;
-	width: 96.7%;
+}
+
+.mdl-card__supporting-text.product-info .bid-wrapper {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+	max-height: 36px;
+}
+
+.product-info .bid-wrapper .mdl-textfield {
+	bottom: 10px;
 }
 
 .card-product.mdl-card {
