@@ -1,0 +1,17 @@
+{
+  "name": "tmpcomp1",
+  "version": "0.0.1",
+  "author": "Gabriel Franzoni",
+  "scripts": {
+    "start": "node app.js",
+    "test": "nodemon app.js"
+  },
+  "license": "Copyright Gabriel Franzoni, 2018",
+  "dependencies": {
+    "express": "~4.16.0",
+    "mongodb": "^3.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}

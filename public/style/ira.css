@@ -1,0 +1,101 @@
+html, body {
+	background: #ccc;
+	font-family: "Muli", Roboto;
+}
+
+.mdl-layout .tmpcomp1-titleicon {
+	font-size: 4em;
+    align-self: center;
+    padding: 1em;
+}
+
+.mdl-layout-title {
+	font-family: "Muli", Roboto, Arial;
+	font-weight: 700;
+}
+
+.mdl-layout__drawer .mdl-navigation__link {
+	transition: .2s cubic-bezier(.4,0,.2,1);
+}
+
+.mdl-layout__drawer .mdl-navigation__link:hover {
+	border-left: .5em solid rgba(0,0,0,0);
+}
+
+.mdl-layout__drawer .mdl-navigation__link.active {
+	font-weight: 700;
+	border-left: .333em solid #333;
+}
+
+.mdl-layout__drawer .mdl-navigation__link .material-icons {
+	padding-right: .5em;
+	font-size: 1.5em;
+}
+
+.mdl-layout__drawer .mdl-navigation__link .material-icons.expand-cart {
+	position: relative;
+    margin-left: 1em;
+    margin-bottom: 1px;
+}
+
+.tmpcomp1-topbar {
+	padding-bottom: 1em;
+}
+
+.tmpcomp1-content {
+	padding: 2.5em;
+	margin-left: 240px;
+}
+
+.tmpcomp1-cardsnav {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.mdl-card.tmpcomp1-product-header {
+	min-width: 100%;
+	background: transparent;
+}
+
+.tmpcomp1-product-header .product-image {
+	min-width: 100%;
+	min-height: 176px;
+	background-size: cover;
+    background-position: center;
+}
+
+.tmpcomp1-product-header .mdl-card__title-text {
+	background-color: rgba(255, 255, 255, 0.333);
+	padding: .333em .75em .333em .75em;
+}
+
+.mdl-card__supporting-text.product-info {
+	line-height: 1.6em;
+	text-align: justify;
+	font-size: 1.2em;
+}
+
+.card-product.mdl-card {
+  width: 49.5%;
+}
+
+.card-superwide.mdl-card {
+  width: 100%;
+}
+
+.card-product > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: center / cover;
+}
+
+.card-product > .mdl-card__menu {
+  color: #fff;
+}
+
+.card-product .mdl-chip {
+	align-self: flex-start;
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.333);
+}
